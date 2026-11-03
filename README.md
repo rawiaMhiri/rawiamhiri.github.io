@@ -1,14 +1,14 @@
 # Rawia Mhiri — Personal website
 
-Static GitHub Pages site.
-
-## Files
-- `index.html` — home
-- `experience.html` — full experience
-- `publications.html` — publications and patents
-- `style.css` — shared styling
-- `cv_rawiaMhiri_GoPro_2026.pdf` — CV
-- `rawia_photo.jpeg` — add your portrait using exactly this filename
+Static GitHub Pages site. This version updates the Outside of Work section with the Lille Marathon photo and running milestones. Other sections remain unchanged.
 
 ## Publish
-Copy all files to the root of your `<github-username>.github.io` repository and enable GitHub Pages from the main branch if needed.
+Copy the files and `assets/` directory to the root of `rawiamhiri.github.io`, then run:
+
+```bash
+git add .
+git commit -m "Update running section with marathon photo"
+git push
+```
+
+The photo is stored in `assets/images/lille-marathon-2026.jpg`.
